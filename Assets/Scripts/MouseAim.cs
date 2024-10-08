@@ -5,14 +5,10 @@ using UnityEngine;
 public class MouseMove : MonoBehaviour
 {public float sensi = 5f;
     private Camera mainCamera;
-    void Awake()
-    {
-         Cursor.visible = false;
-    }
+
     void Start()
     {
         mainCamera = Camera.main;
-       
     }
 
     void Update()
